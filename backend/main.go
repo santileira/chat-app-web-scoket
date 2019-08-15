@@ -2,10 +2,9 @@ package main
 
 import (
 	"fmt"
-	"github.com/gorilla/websocket"
 	"net/http"
 
-	"github.com/santileira/chat-app-web-socket/backend/pkg/websocket
+	"github.com/santileira/chat-app-web-socket/backend/pkg/websocket"
 )
 
 func serveWs(w http.ResponseWriter, r *http.Request) {
