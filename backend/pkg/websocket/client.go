@@ -19,18 +19,24 @@ type Message struct {
 
 func (c *Client) Read() {
 	defer func() {
+		// when the client die, unregisters it and closes the connection
 		c.Pool.Unregister <- c
 		c.Conn.Close()
 	}()
 
 	for {
+		// reads message in the connection
 		messageType, p, err := c.Conn.ReadMessage()
 		if err != nil {
 			log.Println(err)
 			return
 		}
+
+		// creates message
 		message := Message{Type: messageType, Body: string(p)}
+
+		// broadcasts message to the others clients.
 		c.Pool.Broadcast <- message
-		fmt.Printf("Message Received: %+v\n", message)
+		fmt.Printf("Message Received: %v %s \n", message.Type, message.Body)
 	}
 }

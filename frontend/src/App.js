@@ -39,6 +39,7 @@ class App extends Component {
     };
 
     submitMessage = messageString => {
+        console.log(messageString);
         this.ws.send(messageString);
     };
 
