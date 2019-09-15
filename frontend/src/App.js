@@ -1,8 +1,8 @@
 import React, {Component} from "react";
 import "./App.css";
-import {connect, sendMsg} from "./index";
 import Header from './components/Header/Header';
 import ChatHistory from './components/ChatHistory/ChatHistory';
+import ChatInput from "./components/ChatInput/ChatInput";
 
 const URL = "ws://localhost:8080/ws";
 
@@ -10,6 +10,7 @@ class App extends Component {
     constructor(props) {
         super(props);
         this.state = {chatHistory: []}
+        this.send = this.send.bind(this);
     }
 
     ws = new WebSocket(URL);
@@ -49,9 +50,16 @@ class App extends Component {
             <div className="App">
                 <Header/>
                 <ChatHistory chatHistory={this.state.chatHistory}/>
-                <button onClick={this.submitMessage}>Hit</button>
+                <ChatInput send={this.send}/>
             </div>
         );
+    }
+
+    send(event) {
+        if (event.keyCode === 13) {
+            this.submitMessage(event.target.value);
+            event.target.value = "";
+        }
     }
 
 
