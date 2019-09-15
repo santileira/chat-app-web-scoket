@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f54944b1-f2f7-44a6-b18e-b287eaa379fa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/ChatInput/ChatInput.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ChatInput/ChatInput.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ChatInput/Index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Message/Index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Message/Message.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Message/Message.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ChatHistory/ChatHistory.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ChatHistory/ChatHistory.jsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -194,13 +187,6 @@
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="Header" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="chat-app-wen-socket-frontend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Message" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -257,11 +243,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1869000" />
+    <option name="totallyTimeSpent" value="2339000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1629" height="1007" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
@@ -269,9 +254,9 @@
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
       <window_info id="npm" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24952741" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24952741" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32896176" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32896176" />
       <window_info anchor="bottom" id="Docker" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" />
