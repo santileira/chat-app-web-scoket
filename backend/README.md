@@ -14,8 +14,7 @@ Runs the app in the development mode in the container.
 
 Runs the app in the development mode outside of the container.
 
-
-### Library used
+### Library used
 
 - https://github.com/gorilla/websocket
 
