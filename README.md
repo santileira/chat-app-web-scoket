@@ -12,4 +12,4 @@ To start the chat application, first we must run the BackEnd and then we must ru
 
 ## Course
 
-https://tutorialedge.net/projects/chat-system-in-go-and-react/
+- https://tutorialedge.net/projects/chat-system-in-go-and-react/
